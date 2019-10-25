@@ -26,7 +26,7 @@ resultado3 = list(filter(lambda x: list(x.items())[2][1]==maximo, lineas_diccion
 
 resultado4 = list(filter(lambda x: list(x.items())[2][1]==minimo, lineas_diccionario))
 
-print(resultado)
-print(resultado2)
-print(resultado3)
-print(resultado4)
+print("Jugadores con mas de 3 goles:\n\n",resultado,"\n")
+print("Jugadores provenientes de Nigeria:\n\n",resultado2,"\n")
+print("Jugador mas alto:\n\n",resultado3,"\n")
+print("Jugador mas pequeño:\n\n",resultado4,"\n")
